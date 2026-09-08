@@ -1,0 +1,4 @@
+# Chapter 2 dependencies. Pin the versions you actually installed.
+# Record them with:  python -m pip freeze | grep -Ei 'anthropic|pydantic'
+anthropic>=0.40,<1.0
+pydantic>=2.0,<3.0
